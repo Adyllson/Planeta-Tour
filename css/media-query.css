@@ -1,0 +1,125 @@
+@media screen and (max-width: 900px) {
+
+    header .menu-desktop,
+    header .btn-contato {
+        display: none;
+    }
+    header .btn-menu-mob{
+        display: block;
+        padding: 0 3%;
+    }
+
+}
+
+@media screen and (max-width: 878px) {
+
+    /* HERO SITE */
+    .hero-site .txt-hero h1 {
+        line-height: 43px;
+        font-size: 2.6em;
+    }
+
+    .hero-site .txt-hero p {
+        font-size: 14px;
+    }
+
+    .hero-site .txt-hero p span {
+        display: inline;
+    }
+
+    .hero-site button {
+        font-size: 18px;
+    }
+
+    /* SECTION VANTAGENS  */
+    .vantagens .itens-container {
+        flex-direction: column;
+    }
+
+    .vantagens .itens-container .img-itens img {
+        max-width: 100%;
+    }
+
+    .vantagens .itens-container .txt-itens p {
+        margin-bottom: 20px;
+    }
+
+    .vantagens .itens-container .order-1 {
+        order: 1;
+    }
+
+    .vantagens .itens-container .order-2 {
+        order: 0;
+    }
+
+    /* SECTION CONTATO */
+    .txt-contato,
+    .icons-contato {
+        display: block;
+        width: 100%;
+    }
+
+    .contato .txt-contato h3 {
+        font-size: 2em;
+        line-height: 40px;
+
+    }
+
+    .contato .txt-contato p {
+        margin-bottom: 20px;
+    }
+
+    .contato .icons-contato button {
+        width: 100%;
+    }
+
+    .contato .icons-contato button:hover {
+        background-color: #000;
+    }
+
+    /* SECTION HOTEIS */
+    section.hoteis h3 {
+        font-size: 2.3em;
+        line-height: 40px;
+    }
+
+    section.hoteis p {
+        font-size: 16px;
+    }
+
+
+    /* COMO FUNCIONA */
+    .txt-funciona,
+    .instrucoes {
+        display: block;
+        width: 100%;
+    }
+
+    section.como-funciona .txt-funciona {
+        position: static;
+    }
+
+    section.como-funciona .txt-funciona h3 {
+        font-size: 3em;
+        line-height: 50px;
+    }
+
+    section.como-funciona .instrucoes .instru-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* FOOTER */
+    footer .middle-footer {
+        margin: 20px 0;
+    }
+    
+    footer .middle-footer a {
+        display: block;
+        margin: 15px 0;
+    }
+    
+    footer .button-footer p {
+        font-size: 14px;
+    }
+}
